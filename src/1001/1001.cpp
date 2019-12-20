@@ -44,4 +44,3 @@ int main() {
 	cout << stu[index].name << endl << award[index] << endl << total << endl;
 	return 0;
 }
-
