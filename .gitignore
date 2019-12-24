@@ -1,6 +1,9 @@
 *
 !*/
+demo/
 !.gitignore
 !*.c
 !*.cpp
 !*.md
+
+!*.in
