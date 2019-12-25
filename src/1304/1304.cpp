@@ -43,7 +43,7 @@ string step(string x) {
 	char c;
 	for(int i=size-1; i>=0; i--){
 		if(arr[i]>9)
-			c = arr[i]+'A';
+			c = arr[i]+7+'0';
 		else
 			c = arr[i]+'0';
 		result+=c;
@@ -56,9 +56,9 @@ int main(int argc, char *argv[]) {
 	// freopen("a.in", "r", stdin);
 	cin >> m >> n;
 
-	cout<<n<<endl;
+	// cout<<n<<endl;
 
-	for (int i = 0; i < 30; i++) {
+	for (int i = 0; i <= 30; i++) {
 		if (check(n)) {
 			cout << "STEP=" << i << endl;
 			return 0;
