@@ -4,6 +4,7 @@ demo/
 !.gitignore
 !*.c
 !*.cpp
+!*.py
 !*.md
 
 !*.in

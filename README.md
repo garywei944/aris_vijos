@@ -14,5 +14,6 @@ Use `http://vijos.org/p/<problem number>` to access the problem context.
 | 1304           | 回文数           | ac     |
 | 1449           | 字符串还原       | ac     |
 | 1484           | ISBN号码         | ac     |
+| 1772           | 巧妙填数         | ac     |
 | 1848           | 记数问题         | ac     |
 | 1911           | 珠心算测验       | ac     |
