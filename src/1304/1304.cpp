@@ -1,6 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #include <string>
+#include <cstring>
 using namespace std;
 
 #define MAX 50
