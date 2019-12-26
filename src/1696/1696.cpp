@@ -1,9 +1,11 @@
 #include <iostream>
 #include <cstdlib>
 #include <string>
+#include <algorithm>
 using namespace std;
 
 int gcd(int a, int b) {
+	if (a > b)	swap(a, b);
 	int c;
 	while (a != 0) {
 		c = a;
@@ -13,32 +15,22 @@ int gcd(int a, int b) {
 	return b;
 }
 
-void improper(int a, int b, int c) {
-	int g = gcd(b, c);
-	b /= g;
-	c /= g;
-	printf("%d/%d\n", a * c + b, c );
-}
-
-void mixed(int a, int b) {
-	int g = gcd(a, b);
-	a /= g;
-	b /= g;
-	printf("[%d;%d,%d]\n", a / b, a % b, b);
-}
-
 int main(int argc, char *argv[]) {
+#ifdef DEBUG
 	freopen("a.in", "r", stdin);
+#endif
 	string str;
-	char *buffer = NULL;
-	int a, b, c;
 
-	while (cin>>str) {
-		buffer = (char*)str.c_str();
-		if (sscanf(buffer, "[%d;%d,%d]", &a, &b, &c))
-			improper(a, b, c);
-		if (sscanf(buffer, "%d/%d", &a, &b))
-			mixed(a, b);
+	while (cin >> str) {
+		if (str[0] != '[') {
+			// improper to continued fraction
+			int a, b;
+			sscanf(str.data(), "%d/%d", &a, &b);
+			
+		}
+		else {
+			// continued to improper fraction
+		}
 	}
 	return 0;
 }
