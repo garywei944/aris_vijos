@@ -11,6 +11,7 @@ Use `http://vijos.org/p/<problem number>` to access the problem context.
 | :-:            | :-               | :-:    |
 | 1001           | 谁拿了最多奖学金 | ac     |
 | 1097           | 合并果子         | ac     |
+| 1123           | 均分纸牌         | ac     |
 | 1217           | 乒乓球           | ac     |
 | 1304           | 回文数           | ac     |
 | 1335           | 数独验证         | ac     |
