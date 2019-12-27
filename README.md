@@ -18,6 +18,7 @@ Use `http://vijos.org/p/<problem number>` to access the problem context.
 | 1409           | 纪念品分组       | ac     |
 | 1449           | 字符串还原       | ac     |
 | 1484           | ISBN号码         | ac     |
+| 1691           | 输油管道问题     | ac     |
 | 1696           | 数与连分数       | ac     |
 | 1772           | 巧妙填数         | ac     |
 | 1848           | 记数问题         | ac     |
