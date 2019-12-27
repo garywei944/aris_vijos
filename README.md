@@ -14,6 +14,7 @@ Use `http://vijos.org/p/<problem number>` to access the problem context.
 | 1217           | 乒乓球           | ac     |
 | 1304           | 回文数           | ac     |
 | 1335           | 数独验证         | ac     |
+| 1409           | 纪念品分组       | ac     |
 | 1449           | 字符串还原       | ac     |
 | 1484           | ISBN号码         | ac     |
 | 1696           | 数与连分数       | ac     |
