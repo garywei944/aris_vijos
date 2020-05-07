@@ -7,8 +7,7 @@ Use `http://vijos.org/p/<problem number>` to access the problem context.
 ***i.e.*** http://vijos.org/p/1001 for problem 1001
 
 ## Problem Tracks
-| Problem Number |      Title       | Status |
-|----------------|------------------|--------|
+| Problem Number | Title            | Status |
 | :-:            | :-               | :-:    |
 | 1001           | 谁拿了最多奖学金 | ac     |
 | 1097           | 合并果子         | ac     |
