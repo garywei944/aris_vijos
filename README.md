@@ -23,3 +23,12 @@ Use `http://vijos.org/p/<problem number>` to access the problem context.
 | 1772           | 巧妙填数         | ac     |
 | 1848           | 记数问题         | ac     |
 | 1911           | 珠心算测验       | ac     |
+
+## [Windows CMD Script to access problems](https://github.com/garywei944/eva_bin/blob/master/dos/vijos.bat)
+_**Usage:** vijos &lt;problem number&gt;_
+```bat
+@echo off
+set /a n=%1
+
+start https://vijos.org/p/%n%
+```
