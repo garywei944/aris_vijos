@@ -24,7 +24,7 @@ Use `http://vijos.org/p/<problem number>` to access the problem context.
 | 1848           | 记数问题         | ac     |
 | 1911           | 珠心算测验       | ac     |
 
-## [Windows CMD Script to access problems](https://github.com/garywei944/eva_bin/blob/master/dos/vijos.bat)
+## [Windows CMD Script to access problem sets](https://github.com/garywei944/eva_bat/blob/master/bin/vijos.bat)
 _**Usage:** vijos &lt;problem number&gt;_
 ```bat
 @echo off
